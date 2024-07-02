@@ -5,7 +5,8 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 #board {
     background-color: #080001;
@@ -49,4 +50,11 @@ body {
     color: black;
     font-weight: bold;
     font-size: large;
+}
+#header {
+    display: flex;
+    justify-content: center;
+}
+#header h1 {
+    color: red;
 }
